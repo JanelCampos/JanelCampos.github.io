@@ -1,0 +1,50 @@
+body {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: blue;
+}
+
+h4 {
+    color: brown;
+}
+
+nav {
+    background-color: orange;
+}
+
+ul {
+    margin-left: 300px;
+    padding: 30px;
+}
+
+li {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+}
+
+header {
+    background-color: chocolate;
+}
+
+section {
+    background-color: chartreuse;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+body {
+    padding: 25px;
+    background-color: darkkhaki;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-size: 100px;
+}
+
+nav {
+    background-color: yellow;
+}
+
+ol {
+    margin-left: 300px;
+}
+
+li {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+th {
+    background-color: blue;
+}
+
+caption {
+    color: red;
+}
