@@ -1,37 +1,42 @@
 body {
     padding: 25px;
-    background-color: darkkhaki;
 }
 
-h1 {
+header {
     text-align: center;
-    color: green;
-    font-size: 100px;
+    background-color: azure;
 }
 
-nav {
-    background-color: yellow;
+header h1 {
+    color: green;
+    background-color: aqua;
+}
+
+header nav {
+    background-color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ol {
-    margin-left: 300px;
+    width: 100%;
+    float: left;
+    list-style: circle;
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+    align-items: center;
 }
 
-li {
+ol li {
     display: block;
     float: left;
     padding: 10px;
 }
 
 section {
-    margin-top: 60px;
     text-align: center;
 }
 
 th {
     background-color: blue;
-}
-
-caption {
-    color: red;
 }

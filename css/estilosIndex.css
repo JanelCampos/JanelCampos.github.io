@@ -1,11 +1,10 @@
 body {
-    padding: 20px;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
     color: green;
-    text-align: center;
 }
 
 h2 {
