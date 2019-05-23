@@ -19,12 +19,12 @@ header nav {
 
 ol {
     width: 100%;
-    float: left;
+    display: flex;
     list-style: circle;
     padding: 0px;
     margin: 0px;
     background-color: yellow;
-    align-items: center;
+    justify-content: center;
 }
 
 ol li {

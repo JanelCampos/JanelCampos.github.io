@@ -23,14 +23,13 @@ nav {
     background-color: orange;
 }
 
-ul {
-    margin-left: 300px;
-    padding: 30px;
+nav ul {
+    display: flex;
+    justify-content: center;
 }
 
-li {
+nav ul li {
     display: block;
-    float: left;
     padding: 10px;
 }
 
@@ -41,9 +40,12 @@ footer {
 
 header {
     background-color: chocolate;
+    text-align: center;
 }
 
 section {
-    background-color: chartreuse;
+    background-image: url(/imgTurismo/cumbemayo3.jpg);
     text-align: center;
 }
+
+article {}
