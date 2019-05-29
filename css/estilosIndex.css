@@ -1,36 +1,35 @@
 body {
-    padding: 10px;
+    padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    color: green;
+header {
+    text-align: center;
+    align-content: top;
+    background-image: url(/fondo/fondo.png)
 }
 
-h2 {
-    color: green;
-}
+nav {}
 
-h3 {
-    color: blue;
-}
-
-h4 {
-    color: brown;
-}
-
-nav {
-    background-color: orange;
-}
-
-nav ul {
+ul {
     display: flex;
     justify-content: center;
 }
 
-nav ul li {
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+li {
     display: block;
-    padding: 10px;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+
+li :hover {
+    background: gold;
 }
 
 footer {
@@ -38,13 +37,14 @@ footer {
     text-align: right;
 }
 
-header {
-    background-color: chocolate;
+h1 {
+    padding: 80px;
+    color: white;
+    font-size: 40px;
     text-align: center;
 }
 
 section {
-    background-image: url(/imgTurismo/cumbemayo3.jpg);
     text-align: center;
 }
 

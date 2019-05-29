@@ -1,4 +1,13 @@
+body {
+    background-color: rgb(243, 218, 193);
+}
+
 header {
     background-image: url(/imgTurismo/cumbemayo3.jpg);
     text-align: center;
+}
+
+footer {
+    display: block;
+    margin-bottom: 1%;
 }
