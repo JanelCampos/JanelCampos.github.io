@@ -10,3 +10,11 @@ img {
 #cabecera {
     background-color: #363635;
 }
+
+.img-fluid {
+    height: 90vh;
+}
+
+.carousel-item {
+    height: 90vh;
+}
