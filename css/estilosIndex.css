@@ -1,51 +1,40 @@
+#titulo {
+    font-family: 'Ruge Boogie', cursive;
+    text-align: center;
+}
+
+#cabecera {
+    width: 100%;
+    height: 700px;
+}
+
+#contenido {
+    width: 100%;
+    height: 1000px;
+    background-image: url("/fondo/fondo.jpg");
+    color: white;
+}
+
+#aside {
+    background-image: url("/fondo/guitarra.jpg");
+    padding: 10px 10px 10px 10spx;
+}
+
 body {
-    padding: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("/fondo/guitarra.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
-header {
-    text-align: center;
-    align-content: top;
-    background-image: url(/fondo/fondo.png)
+#pie {
+    background: black;
 }
 
-nav {}
-
-ul {
-    display: flex;
-    justify-content: center;
+#navbar {
+    background-color: #8f867c;
 }
 
-a {
-    text-decoration: none;
-    font-size: 25px;
+.nav-link {
     color: white;
 }
-
-li {
-    display: block;
-    padding: 20px;
-    margin-bottom: 2%;
-}
-
-li :hover {
-    background: gold;
-}
-
-footer {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: right;
-}
-
-h1 {
-    padding: 80px;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-}
-
-section {
-    text-align: center;
-}
-
-article {}

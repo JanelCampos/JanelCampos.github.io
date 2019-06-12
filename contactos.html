@@ -5,80 +5,129 @@
     <meta charset="UTF-8">
     <title>Contactos</title>
     <link rel="stylesheet" href="css/estilosContactos.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/ifonts/style.css">
 </head>
 
 <body>
     <header id="cabecera">
-        <h1>Mis Contactos</h1>
-        <nav>
-            <ol>
-                <li><a href="index.html"><em>Principal</em></a></li>
-                <li><a href="contactos.html"><em>Contactos</em></a></li>
-                <li><a href="turismo.html"><em>Guía turística</em></a></li>
-            </ol>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">BLOG PERSONAL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="turismo.html">
+                                    Cajamarca
+                                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lab3.html">Laboratorio HTML-CSS</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <spam class="icon-facebook2"></spam>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <spam class="icon-twitter"></spam>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <spam class="icon-instagram"></spam>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <spam class="icon-whatsapp"></spam>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <spam class="icon-youtube"></spam>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <spam class="icon-skype"></spam>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section>
-
         <article>
-            <table border="2">
-                <caption>Tabla de Contactos</caption>
+            <table class="table table-dark">
                 <tr>
                     <th colspan=4>Contactos</th>
                 </tr>
                 <tr>
-                    <th>Nombre</th>
-                    <th>Foto</th>
-                    <th>Número</th>
-                    <th>Email</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Foto</th>
+                    <th scope="col">Número</th>
+                    <th scope="col">Email</th>
                 </tr>
                 <tr>
-                    <td>Wilmer León Chávez</td>
-                    <td><img src="contactosFotos/wilmer.jpg" width="75" height="75"></td>
-                    <td>9678945332</td>
-                    <td>wleon15@unc.edu.pe</td>
+                    <td scope="row" ">Wilmer León Chávez</td>
+                    <td scope="col "><img src="contactosFotos/wilmer.jpg " width="75 " height="75 "></td>
+                    <td scope="col ">9678945332</td>
+                    <td scope="col ">wleon15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Júver Terán Ayay</td>
-                    <td><img src="contactosFotos/juver.jpg" width="75" height="75"></td>
-                    <td>956789234</td>
-                    <td>jteran15@unc.edu.pe</td>
+                    <td scope="row "">Júver Terán Ayay</td>
+                    <td scope="col"><img src="contactosFotos/juver.jpg" width="75" height="75"></td>
+                    <td scope="col">956789234</td>
+                    <td scope="col">jteran15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Miguel Flores Aguilar</td>
-                    <td><img src="contactosFotos/miguel.jpg" width="75" height="75"></td>
-                    <td>923456789</td>
-                    <td>mflores15@unc.edu.pe</td>
+                    <td scope="row">Miguel Flores Aguilar</td>
+                    <td scope="col"><img src="contactosFotos/miguel.jpg" width="75" height="75"></td>
+                    <td scope="col">923456789</td>
+                    <td scope="col">mflores15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Cristian Quispe Aguilar</td>
-                    <td><img src="contactosFotos/cristhian.jpg" width="75" height="75"></td>
-                    <td>956789234</td>
-                    <td>cquispe15@unc.edu.pe</td>
+                    <td scope="row">Cristian Quispe Aguilar</td>
+                    <td scope="col"><img src="contactosFotos/cristhian.jpg" width="75" height="75"></td>
+                    <td scope="col">956789234</td>
+                    <td scope="col">cquispe15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Laurita Idrogo Blanco</td>
-                    <td><img src="contactosFotos/laurita.jpg" width="75" height="75"></td>
-                    <td>9678945332</td>
-                    <td>lidrogo15@unc.edu.pe</td>
+                    <td scope="row">Laurita Idrogo Blanco</td>
+                    <td scope="col"><img src="contactosFotos/laurita.jpg" width="75" height="75"></td>
+                    <td scope="col">9678945332</td>
+                    <td scope="col">lidrogo15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Edson Guadalupe Solano</td>
-                    <td><img src="contactosFotos/edson.jpg" width="75" height="75"></td>
-                    <td>956789234</td>
-                    <td>eguadalupe15@unc.edu.pe</td>
+                    <td scope="row">Edson Guadalupe Solano</td>
+                    <td scope="col"><img src="contactosFotos/edson.jpg" width="75" height="75"></td>
+                    <td scope="col">956789234</td>
+                    <td scope="col">eguadalupe15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Cristian Burgos Ninatanta}</td>
-                    <td><img src="contactosFotos/cristian.jpg" width="75" height="75"></td>
-                    <td>9678945332</td>
-                    <td>cburgos15@unc.edu.pe</td>
+                    <td sscope="row">Cristian Burgos Ninatanta}</td>
+                    <td scope="col"><img src="contactosFotos/cristian.jpg" width="75" height="75"></td>
+                    <td scope="col">9678945332</td>
+                    <td scope="col">cburgos15@unc.edu.pe</td>
                 </tr>
                 <tr>
-                    <td>Elsa Bacón Aliga</td>
-                    <td><img src="contactosFotos/elsa.jpg" width="75" height="75"></td>
-                    <td>956789234</td>
-                    <td>ebacon15@unc.edu.pe</td>
+                    <td sscope="row">Elsa Bacón Aliga</td>
+                    <td scope="col"><img src="contactosFotos/elsa.jpg" width="75" height="75"></td>
+                    <td scope="col">956789234</td>
+                    <td scope="col">ebacon15@unc.edu.pe</td>
                 </tr>
             </table>
             <br>
@@ -102,6 +151,8 @@
         <br>Copyright &copy; 2019
         <address><em>Autor: Campos Guerrero Janel R. <abbr title="Universidad Nacional de Cajamrca">UNC</abbr></em></address>
     </footer>
+    <script src="/bootstrap/js/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
